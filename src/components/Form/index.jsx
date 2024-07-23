@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../Form/Form.module.css'
+import styles from '../Form/Form.module.css'
 
 const Form = () => {
 
@@ -14,7 +14,7 @@ const Form = () => {
 
 
     return (
-        <form className='rounded'>
+        <form className={styles.form}>
             <div className='mb-3'>
                 <label className='form-label text-warning h3'>Peso</label>
                 <input 

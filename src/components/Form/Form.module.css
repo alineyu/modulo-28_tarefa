@@ -1,9 +1,10 @@
 
-form {
+.form {
     width: 600px;
     background-color: #fff;
     margin: auto;
     padding: 42px;
     text-align: center;
+    border-radius: 20px;
     
 }
